@@ -1,0 +1,224 @@
+// Is this working?
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+/*Imports*/
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Crimson+Text&display=swap');
+
+/*Font Styles*/
+@font-title:'Crimson Text', serif;
+@font-body:'Cormorant Garamond', serif;
+
+/*Font Formatting*/
+
+h1, h2{
+	font-family:@font-title;
+}
+
+p{
+	font-family:@font-body;
+}
+
+h1{
+	
+	@media(max-width:500px){
+		
+	}
+}
+
+h2{
+	
+	font-size:1.2rem;
+	
+	
+	@media(max-width:500px){
+		
+	}
+}
+
+p{
+	margin:5px;
+	
+	@media(max-width:500px){
+		
+	}
+}
+
+
+/*Format Resume Dimensions*/
+
+
+
+html{
+	box-sizing:border-box;
+	font-size:90%;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+/*Content Formatting*/
+
+body{
+	max-width:612px;
+	max-height:792px;
+	margin:10%;
+	border:black solid 2px;
+	padding:5px;
+}
+
+/*Header Formatting*/
+
+.header{
+	
+	.img{
+		width:80%;
+		height:auto;
+	}
+	
+	.header-info{
+		display:flex;
+		justify-content:space-evenly;
+	}
+	
+	@media(max-width:500px){
+		.header-info{
+			display:flex;
+			flex-direction:column;
+			align-items:center;
+			width:100%;
+			margin:10px 0 10px 0;
+		}
+	}
+}
+
+.content-container{
+	display:flex;
+	
+	
+	@media(max-width:500px){
+		
+		display:flex;
+		flex-direction:column;
+	}
+}
+
+/*Profile Formatting*/
+
+.profile{
+	
+	width:100%;
+	margin:0 5px 0 0;
+	padding:10px;
+	background-color:gainsboro;
+	
+	
+	@media(max-width:500px){
+		
+	}
+}
+
+/*Experience Container Formatting*/
+
+.experience-container{
+	border:gainsboro solid 2px;
+	margin:0 0 0 5px;
+	padding:10px;
+	
+	@media(max-width:500px){
+		border:none;
+		.colordiv{
+			background-color:gainsboro;
+		}
+	}
+}
+
+/*Work Experience Container Formatting*/
+
+.work-experience{
+	
+	@media(max-width:500px){
+		
+	}
+}
+
+/*Education Formatting*/
+
+.education{
+	margin:10px 0 5px 0;
+	
+	@media(max-width:500px){
+		
+		
+	}
+}
+
+/*Footer Formatting*/
+footer{
+	
+	@media(max-width:500px){
+		
+	}
+}
+
+
+
+
+
